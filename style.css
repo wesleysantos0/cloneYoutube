@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Cabeçalho */
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height:56px;
+    padding: 0 24px;
+}
+
+.menuEsquerdo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 146px;
+    height: 24px;
+}
+
+#menu-barra{
+    height: 24px;
+    width: 24px;
+}
+
+#img-youtube{
+    width: 90px;
+    height: 20px;
+}
+
+/* menu centro */
+.menuCentro{
+    display: flex;
+    flex-direction: row;
+    width: 404px;
+    height: 40px;
+
+}
+#ipesq {
+    width: 348px;
+    height: 40px;
+    padding: 5px;
+}
+
+
+button {
+    width: 57px;
+    height: 40px;
+    background-color: whitesmoke;
+}
+
+
+#usuario {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* menu direito */
+
+.menuDireito {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+    width: 140px;
+}
+
+/* conteudo principal*/
+
+.conteudoPrincipal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 16px;
+    margin-top: 50px;
+    margin-left: 75px;
+}
+
+.descricaoVideo {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    width: 952px;
+}
+
+.videoActions {
+    display: flex;
+    align-items: center;
+    height: 42px;
+    gap: 42px;
+}
+
+.infCanal {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+}
+
+/* botão de inscrito  */
+
+#botaoInscricao {
+    color: whitesmoke;
+    background-color: #CC0000;
+    width: 159px;
+    height: 40px;
+
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    border: none;
+}
+
+.sl::before {
+    content: url(imagens/conteudo/thumbs-up.svg);
+    
+}
+
+.sd::before {
+    content: url(imagens/conteudo/thumbs-down.svg);
+    
+}
+.sc::before {
+    content: url(imagens/conteudo/share-2.svg);
+}
+.sdow::before {
+    content: url(imagens/conteudo/download.svg);
+}
+
+
+.span {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    height: 24px;
+    width: 100px;
+}
+.conteudoVideo{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.sidelateral{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-bottom: 50px;
+}
+.sidelateral  {
+    width: 350px;
+    height: 150px;
+}
